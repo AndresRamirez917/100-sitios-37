@@ -12,9 +12,180 @@ html, body {
     background: #000;
 }
 
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+}
+
 .container {
     max-width: 1300px;
     overflow: auto;
     margin: 0 auto;
     padding: 0 20px;
 }
+
+.btn {
+    padding: 10px 20px;
+    border-radius: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    cursor: pointer;
+    border:none;
+}
+
+.button-1 {
+    background: #000;
+    color: #fff;
+}
+
+.button-2 {
+    background: #fff;
+    color: #070707;
+}
+
+.box {
+width: 400px;
+height: 400px;
+margin-left: 10px;
+}
+
+.box .button-2 {
+  margin: 0 auto;
+  text-align: center;
+  color: red;
+  display: flex;
+  flex-direction: column;
+  margin-top: 25em ;
+}
+
+.box h3 {
+    position: absolute;
+    margin-left: 17em;
+    margin-top: 9em;
+    color: #fff;
+    font-size: 30px;
+font-weight: lighter;
+}
+
+.main-row-2 .box-4 .button-2 { 
+    position: absolute !important;
+    margin-left: 40em;
+    color: blue;
+}
+
+/* navbar */
+.navbar {
+    background: #000;
+    margin: 1em 0;
+}
+
+.navbar .logo {
+    float: left;
+}
+
+.navbar ul {
+    float: right;
+    list-style: none;
+}
+
+.navbar ul li {
+    display: inline-block;
+    margin-left: 1em;
+}
+
+
+
+/* showcase */
+#showcase {
+    background: url("/img/showcase.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100dvh;
+}
+
+#showcase h2 {
+    text-align: center;
+    margin-top: 3em;
+    margin-bottom: 1em;
+    font-size: 4em;
+}
+
+#showcase h1 {
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    font-size: 4em;
+}
+
+#showcase button {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 3em;
+}
+
+.main-row {
+    margin-top: 3em;
+    display: flex;
+
+}
+
+.main-row-2 {
+    margin-top: 1em;
+    display: flex;
+
+}
+
+.box-1 {
+    background: url("/img/food-1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+
+.box-2 {
+    background: url("/img/food-2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+}
+
+.box-3 {
+    background: url("/img/food-3.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+
+.box-4 {
+    background: url("/img/food-banner.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 810px;
+    height: 400px;
+    margin-left: 10px;
+}
+
+.box-5 {
+    background: url("/img/food-5.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+
+/* footer */
+#footer {
+    padding: 3em;
+    text-align: center;
+}
+
+
